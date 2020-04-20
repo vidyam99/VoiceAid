@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VoiceAid</string>
+    <string name="hint">hint</string>
+    <string name="image_button_description"></string>
+</resources>

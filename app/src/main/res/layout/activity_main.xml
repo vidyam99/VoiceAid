@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.v0icem4sk.MainActivity">
+    tools:context="com.example.voiceaid.MainActivity">
 
 
 
@@ -35,8 +35,9 @@
     <LinearLayout
         android:id="@+id/textInput"
         android:layout_width="match_parent"
-        android:layout_height="570dp"
-        android:layout_above="@id/voiceText"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/callid"
+        android:layout_marginTop="0dp"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -66,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/btnSpeakContainer"
-        android:layout_marginTop="-184dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="20dp"
         android:padding="20dp">
 
